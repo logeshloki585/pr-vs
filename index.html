@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
-
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 	<!-- title -->
 	<title>Protfolio</title>
 
@@ -134,12 +134,12 @@
 					<div class="single-product-item">
 						
 						<h3 class="orange-text">Skills</h3>
-						<h4>Html</h4>
-						<h4>Css</h4>
-						<h4>Django</h4>
-						<h4>Python</h4>
-						<h4>Tensorflow</h4>
-						
+						<div style="display: flex; justify-content: center; margin-top: 3px;"><i class="fab fa-html5" style="font-size:30px;margin-right:10px ;color: orange;"></i><h4>Html</h4></div>
+						<div style="display: flex; justify-content: center; margin-top: 10px;"><i class="fab fa-css3-alt" style="font-size:30px;margin-right:10px ;color: blue;"></i><h4>Css</h4></div>
+						<div style="display: flex; justify-content: center;  margin-top: 10px;"><i class="fab fa-dyalog" style="font-size:30px;margin-right:10px ;color: green;"></i><h4>Django</h4></div>
+						<div style="display: flex; justify-content: center; margin-top: 10px;"><i class="fab fa-python" style="font-size:30px;margin-right:10px ;color: pink;"></i><h4>Python</h4></div>
+						<div style="display: flex; justify-content: center; margin-top: 10px;"><i class="fab fa-tumblr-square" style="font-size:30px;margin-right:10px ;color: red;"></i><h4>Tensorflow</h4></div>
+
 					</div>
 				</div>
 			</div>
@@ -148,7 +148,7 @@
 	<!-- end product section -->
 
 	<!-- latest news -->
-	<div id="project" class="latest-news ">
+	<div  id="project" class="latest-news ">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
@@ -158,10 +158,10 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
+			<div class="row" style="justify-content: center;">
+				<div class="col-lg-4 col-md-6" >
 					<div class="single-latest-news">
-						<a href="single-news.html"><div class="latest-news-bg news-bg-1"><img class="latest-news-bg w-100 " src="https://s3.envato.com/files/262406078/PreviewScreenshots/5.png" alt="pro"></div></a>
+						<a href="single-news.html"><div class="latest-news-bg news-bg-1"><img class="latest-news-bg w-100 " style="height: 200px;" src="https://s3.envato.com/files/262406078/PreviewScreenshots/5.png" alt="pro"></div></a>
 						<div class="news-text-box">
 							<h3><a href="single-news.html">Food Management website</a></h3>
 						
@@ -185,7 +185,32 @@
 						</div>
 					</div>
 				</div>
-				
+				<div class="col-lg-4 col-md-6">
+					<div class="single-latest-news">
+						<a href="single-news.html"><div class="latest-news-bg news-bg-1"><img class="latest-news-bg w-100 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRJLEnPKrK1WzC4JLcJCCSZYr9sl2Xa8IE89989BDGdH7p1DDuBp3LDBZtRonVFBLlyGk&usqp=CAU" alt="pro"></div></a>
+						<div class="news-text-box">
+							<h3><a href="single-news.html">Food Management website</a></h3>
+						
+							<p class="excerpt">something about site sdwefweaf</p>
+							
+							<a href="" style="width: 120px; text-align: center;"  class="boxed-btn">Link</a>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-latest-news">
+						<a href="single-news.html"><div class="latest-news-bg news-bg-1"><img class="latest-news-bg w-100 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRJLEnPKrK1WzC4JLcJCCSZYr9sl2Xa8IE89989BDGdH7p1DDuBp3LDBZtRonVFBLlyGk&usqp=CAU" alt="pro"></div></a>
+						<div class="news-text-box">
+							<h3><a href="single-news.html">Food Management website</a></h3>
+						
+							<p class="excerpt">something about site sdwefweaf</p>
+							
+							<a href="" style="width: 120px; text-align: center;"  class="boxed-btn">Link</a>
+							
+						</div>
+					</div>
+				</div>
 			</div>
 		
 				
@@ -197,7 +222,7 @@
 	<!-- end latest news -->
 
 	<div id="contact" class="container contact">
-		<div class="row">
+		<div class="row" style="box-shadow: 10px 5px 10px rgba(10, 10, 10,0.2);">
 			<div class="col-md-3">
 				<div class="contact-info">
 					<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
@@ -205,36 +230,28 @@
 					<h4>I would love to hear from you !</h4>
 				</div>
 			</div>
-			<div class="col-md-9">
-				<div class="contact-form">
+			<div class="col-md-9" >
+				<div class="contact-form" >
 					<div class="form-group">
-					  <label class="control-label col-sm-2" for="fname">First Name:</label>
-					  <div class="col-sm-10">          
-						<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-					  </div>
+					  <h4 style="display: inline-block; font-weight: 200; ">Name:</h4>
+						<h3 style="font-size: 20px; font-weight: 700">VAISHANAVI</h3>
 					</div>
 					<div class="form-group">
-					  <label class="control-label col-sm-2" for="lname">Last Name:</label>
-					  <div class="col-sm-10">          
-						<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-					  </div>
+						<h4 style="display: inline-block; font-weight: 200;">Phone:</h4>
+						<h3 style="font-size: 20px; font-weight: 700">1234567890</h3>
 					</div>
 					<div class="form-group">
-					  <label class="control-label col-sm-2" for="email">Email:</label>
-					  <div class="col-sm-10">
-						<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-					  </div>
+						<h4 style="display: inline-block; font-weight: 200;">Email:</h4>
+						<h3 style="font-size: 20px; font-weight: 700">VAISHANAV@gamil.com</h3>
+					</div>
+					<div class="form-group" >
+						<h4 style=" font-weight: 200;;">Github:</h4>
+						<!-- github link add -->
+						<h3 style="font-size: 20px; font-weight: 700"   ><a href="#" style="text-decoration: none; color: black;">Id</a></h3>
 					</div>
 					<div class="form-group">
-					  <label class="control-label col-sm-2" for="comment">Comment:</label>
-					  <div class="col-sm-10">
-						<textarea class="form-control" rows="5" id="comment"></textarea>
-					  </div>
-					</div>
-					<div class="form-group">        
-					  <div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" class="btn btn-default">Submit</button>
-					  </div>
+						<h4 style="display: inline-block; font-weight: 200;">LinkedIn:</h4>
+						<h3 style="font-size: 20px; font-weight: 700"><a href="#" style="text-decoration: none; color: black;">ID</a></h3>
 					</div>
 				</div>
 			</div>
